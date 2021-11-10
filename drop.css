@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincont{
+    width: 100%;
+    height: 100vh;
+    background-color: #b4d0e7;;
+}
+
+.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    background-color: white;
+}
+
+.top h4{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.top h4:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+.logo img{
+    width: 50px;
+    display: flex;
+    height: 35px;
+    margin: 25px 25px;
+}
+
+.logo p{
+    width: 50%;
+    margin: 0px -25px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo .biz{
+    color: rgb(12, 77, 199);
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.list{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    padding: -50px;
+    text-decoration: none;
+}
+
+.list:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+}
+
+.diz{
+    width: 110px;
+    height: 36px;
+    background-color: white;
+    border: none;
+}
+
+.diz:hover{
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(241, 240, 240);
+}
+
+.evry{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.evry p{
+    font-size: 62px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+
+}
+
+.drop{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: -20px;
+}
+
+.daf{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    padding-left: 50PX;
+}
+
+.daf p{
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.daf button{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background-color: #0061ff;
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+}
+
+.daf button:hover{
+    background-color: #2a7cff
+}
+
+.daf h4{
+    margin-top: 15px;
+    font-weight: normal;
+    font-family: AtlasGrotesk,Open Sans,sans-serif;
+}
+
+.daf h5{
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: AtlasGrotesk,Open Sans,sans-serif;
+}
+
+.daf a{
+    color: black;
+}
+
+.daf a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clt{
+    width: 60vw;
+    height: 66vh;
+    margin: 0px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.clt img{
+    width: 100%;
+    flex: 1;
+    box-sizing: inherit;
+}
+
+.do{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    /* justify-content: center; */
+
+}
+
+.do p{
+    font-size: 40px;
+    line-height: 32px;
+    font-weight: bold;
+    padding-left: 100px;
+    font-family:"SharpGroteskCondensed","Open Sans",sans-serif;
+}
+
+
+.less{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    margin-top: 30px;
+}
+
+.tol{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.tol img{
+    width: 300px;
+    height: 250px;
+}
+
+.tol p{
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.tol h4{
+    font-size: 18px;
+    font-family:"SharpGroteskCondensed","Open Sans",sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    margin-top: 20px;
+
+}
+
+.tol a{
+    color: black;
+}
+
+.tol a:hover{
+    text-decoration: none;
+}
+
+.trans{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.trans img{
+    width: 300px;
+    height: 250px;
+}
+
+.trans p{
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.trans h4{
+    font-size: 18px;
+    font-family:"SharpGroteskCondensed","Open Sans",sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col img{
+    width: 300px;
+    height: 250px;
+}
+
+.col p{
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.col h4{
+    font-size: 18px;
+    font-family:"SharpGroteskCondensed","Open Sans",sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+
+.col a{
+    color: black;
+}
+
+.col a:hover{
+    text-decoration: none;
+}
+
+.more{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.more p{
+    font-size: 50px;
+    font-family: "SharpGroteskCondensed","Open Sans",sans-serif;
+    line-height: 50px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.more a{
+    color: rgb(12, 77, 199);
+    margin-top: 20px;
+    padding-left: 100px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.more a:hover{
+    text-decoration: none;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.img .cof{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img img{
+    width: 100px;
+}
+
+.img .coff{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.img .coff .col img{
+    width: 140px;
+    margin: 80px 40px;
+}
+
+.img .coff .col{
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+    background-color: rgb(15, 119, 46);
+}
+
+
+.img .coff .coll img{
+    width: 100px;
+    margin: 70px 50px;
+}
+
+.img .coff .coll{
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+    background-color: rgb(73, 2, 39);
+}
+
+.img .coff .big img{
+    width: 160px;
+    margin: 45px 50px;
+}
+
+.img .coff .big p{
+    display: flex;
+    align-items: center;
+    margin: 30px 50px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img .coff .big{
+    width: 420px;
+    background-color: rgb(175, 175, 175);
+}
+
+.img .coff .cold img{
+    width: 155px;
+    margin: 80px 25px;
+}
+
+.img .coff .cold{
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+    background-color: rgb(200, 11, 11);
+}
+
+.img .coff .kold img{
+    width: 150px;
+    margin: 100px 30px;
+}
+
+.img .coff .kold{
+    width: 213px;
+    height: 210px;
+    cursor: pointer;
+    background-color: rgb(158, 204, 231);
+}
+
+.img .cof{
+    margin-top: -212px;
+}
+
+.img .cof .cog img{
+    width: 150px;
+    margin: 90px 30px;
+}
+
+.img .cof .cog{
+    width: 210px;
+    height: 212px;
+    cursor: pointer;
+    background-color: rgb(2, 148, 233);
+}
+
+.img .cof .cogg img{
+    width: 150px;
+    margin: 80px 30px;
+}
+
+.img .cof .cogg{
+    width: 210px;
+    height: 212px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.img .cof .gold img{
+    width: 150px;
+    margin: 0px 30px;
+}
+
+.img .cof .gold{
+    width: 210px;
+    height: 212px;
+    cursor: pointer;
+    margin-left: 420px;
+    background-color: rgb(2, 2, 93);
+}
+
+.img .cof .fold img{
+    width: 150px;
+    margin: 90px 30px;
+}
+
+.img .cof .fold{
+    width: 215px;
+    height: 212px;
+    cursor: pointer;
+    background-color: rgb(219, 167, 23);
+}
